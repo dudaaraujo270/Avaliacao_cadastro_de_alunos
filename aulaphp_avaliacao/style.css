@@ -1,0 +1,66 @@
+/* Etapa realizada após o horário do intervalo do dia 30/09 e concluída no dia 02/10 (Estipulação do horário: 10h20 até  término da aula do dia 30/09 e no dia 02/10 às 09h20.)*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #a7c3dd, #647bbe, #211f6b);
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0.062);
+
+}
+h1 {
+    color: #ffffff; /* Verde */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 95px; /* Espaçamento abaixo do título */
+}
+h2 {
+    color: #ffffff; /* Verde */
+    text-align: center; /* Centraliza o título */
+    margin-top: 95px; /* Espaçamento abaixo do título */
+} 
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+label {
+    color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input {
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #ffffff;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+.input:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+/* http://localhost:8080/aulaphp_avaliacao/index.php */
+
